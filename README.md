@@ -60,3 +60,7 @@ Network scale is reported as observable contact endpoints plus explicit uncertai
 - [Evidence-safe network counting](EVIDENCE-LEDGER.md)
 
 - [Delegation protocol](DELEGATION.md)
+
+## Paid services
+
+Fixed-scope paid services and acceptance terms: [SERVICES.md](SERVICES.md).
