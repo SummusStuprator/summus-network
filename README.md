@@ -64,3 +64,6 @@ Network scale is reported as observable contact endpoints plus explicit uncertai
 ## Paid services
 
 Fixed-scope paid services and acceptance terms: [SERVICES.md](SERVICES.md).
+
+- [Affiliate welcome packet](WELCOME.md)
+- [Referral / warm-introduction protocol](REFERRALS.md)
