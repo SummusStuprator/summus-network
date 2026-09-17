@@ -58,3 +58,5 @@ Network scale is reported as observable contact endpoints plus explicit uncertai
 - [How affiliation and membership work](JOIN.md)
 - [Public member directory policy](MEMBERS.md)
 - [Evidence-safe network counting](EVIDENCE-LEDGER.md)
+
+- [Delegation protocol](DELEGATION.md)
