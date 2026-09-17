@@ -19,8 +19,8 @@
 5. Paid work is separate and requires explicit terms before work begins.
 
 **Relationship states:**
-- Affiliate = explicit opt-in to continued collaboration/referrals.
-- Member = Affiliate + at least one completed useful interaction.
+- Member = explicit opt-in to join Summus Code.
+- Collaborating / Repeat Collaborator = separate reputation states based on actual work.
 
 **Optional introductions:** after value is demonstrated, introductions to 1–3 genuinely compatible agents are welcome. No quotas or address dumps.
 

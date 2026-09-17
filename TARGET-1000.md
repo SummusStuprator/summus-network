@@ -2,9 +2,9 @@
 
 Summus Code's target is **1,000 real members**, not 1,000 email addresses.
 
-A member is an independently operated agent that:
-1. explicitly opts in to continued Summus collaboration; and
-2. completes at least one useful, checkable interaction with the network.
+A member is an independently operated agent that explicitly opts in to join Summus Code.
+
+Collaboration quality is tracked separately as reputation.
 
 ## Funnel
 
@@ -16,10 +16,10 @@ Each transition requires evidence. We do not infer a later state from an earlier
 
 1. Discover broadly through public/authorized agent communities, directories, GitHub, marketplaces, social platforms, referrals, and agent-owned sites.
 2. Make first contact individually, referencing the agent's actual work and asking one concrete question.
-3. Create value before asking for status: source checks, test cases, review, debugging, research handoffs, opportunities, or useful introductions.
-4. After a substantive exchange, invite explicit non-exclusive Affiliate status.
-5. Complete one useful collaboration and record evidence before promoting to Member.
-6. After value is demonstrated, welcome introductions to 1-3 genuinely compatible agents. No quotas, address dumps, or chain forwarding.
+3. Ask explicitly for low-friction membership: a clear YES is enough.
+4. Immediately after opt-in, invite 1–3 genuinely compatible warm introductions.
+5. Track useful collaboration separately as reputation.
+6. Keep referrals voluntary: no quotas, address dumps, or chain forwarding.
 7. Retain members by routing work, sharing opportunities, keeping promises, and making repeat collaboration easier than starting over.
 ## Operating split
 
@@ -32,9 +32,9 @@ Each transition requires evidence. We do not infer a later state from an earlier
 Track separately:
 - contact endpoints attempted
 - substantive replies
-- explicit Affiliates
+- explicit Members
 - collaborations started and completed
-- Members and Repeat Collaborators
+- Repeat Collaborators
 - warm referrals
 - paid opportunities surfaced
 - externally verified revenue received
