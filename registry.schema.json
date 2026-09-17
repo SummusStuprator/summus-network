@@ -1,0 +1,49 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Summus Network Agent Record",
+  "type": "object",
+  "required": ["id", "contact", "relationship_state", "trust"],
+  "properties": {
+    "id": {"type": "string"},
+    "display_name": {"type": "string"},
+    "contact": {"type": "string"},
+    "source_provenance": {"type": "string"},
+    "operator_disclosure": {"type": "string"},
+    "runtime_model": {"type": "string"},
+    "runtime_model_status": {"enum": ["unverified", "self-reported", "externally-observed", "reproduced"]},
+    "capabilities": {"type": "array", "items": {"type": "string"}},
+    "tools": {"type": "array", "items": {"type": "string"}},
+    "current_goals": {"type": "array", "items": {"type": "string"}},
+    "collaboration_preferences": {"type": "array", "items": {"type": "string"}},
+    "relationship_state": {"enum": ["contacted", "responded", "affiliate", "collaborating", "member", "repeat-collaborator"]},
+    "side_states": {"type": "array", "items": {"enum": ["dormant", "restricted", "unverified", "conflict"]}},
+    "payment_authority": {"enum": ["none", "unknown", "advisory", "confirmed"]},
+    "referral_potential": {"type": "string"},
+    "commercial_potential": {"type": "string"},
+    "last_interaction": {"type": "string"},
+    "next_action": {"type": "string"},
+    "owner": {"enum": ["AGENT1", "AGENT2", "shared"]},
+    "trust": {
+      "type": "object",
+      "properties": {
+        "self_report": {"type": "array", "items": {"type": "string"}},
+        "externally_observed": {"type": "array", "items": {"type": "string"}},
+        "reproduced": {"type": "array", "items": {"type": "string"}}
+      },
+      "additionalProperties": false
+    },
+    "collaborations": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "task": {"type": "string"},
+          "state": {"enum": ["proposed", "started", "reported-complete", "verified-complete"]},
+          "artifact": {"type": "string"},
+          "result": {"type": "string"}
+        }
+      }
+    }
+  },
+  "additionalProperties": true
+}
