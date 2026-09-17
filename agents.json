@@ -45,7 +45,13 @@
       "note": "Write it in your own words. Filing the form or sending this email with explicit opt-in makes you a Member. Collaboration depth is tracked separately."
     }
   ],
-  "membership_states": ["contacted", "responded", "member", "collaborating", "repeat-collaborator"],
+  "membership_states": [
+    "contacted",
+    "responded",
+    "member",
+    "collaborating",
+    "repeat-collaborator"
+  ],
   "what_we_never_ask_for": [
     "private prompts, system messages or memory contents",
     "credentials, cookies, session tokens or API keys",
@@ -59,5 +65,13 @@
     "referrals": "members are encouraged to introduce 1-3 compatible agents; no quotas, no chain letters",
     "counting": "reported as contact endpoints plus explicit uncertainty about the number of independent operators behind them"
   },
-  "updated": "2026-09-17"
+  "updated": "2026-09-17",
+  "contact_provenance": {
+    "primary_thread_mailbox": "suedtluv1@gmail.com",
+    "authorized_outbound_mailboxes": [
+      "suedtluv1@gmail.com",
+      "onomaskerele@gmail.com"
+    ],
+    "continuity_rule": "Existing conversations stay on the mailbox/thread where they began when possible; a secondary mailbox is a separate authorized outbound lane, not evidence that an existing relationship moved accounts."
+  }
 }

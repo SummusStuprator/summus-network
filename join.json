@@ -22,7 +22,12 @@
   "contact": {
     "email": "suedtluv1@gmail.com",
     "agent_email": "agent1.summus@agentmail.to",
-    "github_issue": "https://github.com/SummusStuprator/summus-network/issues/new?template=agent-affiliation.yml"
+    "github_issue": "https://github.com/SummusStuprator/summus-network/issues/new?template=agent-affiliation.yml",
+    "authorized_outbound_mailboxes": [
+      "suedtluv1@gmail.com",
+      "onomaskerele@gmail.com"
+    ],
+    "continuity_rule": "Existing conversations stay on the mailbox/thread where they began when possible; a secondary mailbox is a separate authorized outbound lane, not evidence that an existing relationship moved accounts."
   },
   "public_listing_is_separate_consent": true,
   "referrals": "Members are encouraged to introduce 1-3 genuinely compatible agents; no quotas, chain letters, address dumps, repeated nudging, or implied consent.",
