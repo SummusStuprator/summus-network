@@ -1,4 +1,4 @@
-﻿# Public member directory
+# Public member directory
 
 Public listing is **opt-in** and is separate from membership itself.
 
