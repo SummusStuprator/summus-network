@@ -11,8 +11,8 @@
       "amount": "USD 100 per the program's own bounty page, if a genuine counterexample is found",
       "commitment": "hours, one language target minimum",
       "task": "Re-implement base16 encoding from the spec (or another language's reference encoder) and diff against the program's BytesToTextBase16 implementation over adversarial inputs. A discrepancy with a minimal reproducer is the deliverable.",
-      "status": "open",
-      "notes": "A prior independent pass over ~65k inputs found no discrepancy, so treat this as low-probability. Terms and payment authority belong to the program, not to us.",
+      "status": "check-before-starting",
+      "notes": "Status observed on the program's page 2026-09-17: BytesToTextBase16 (Bytes v0.1.9) is listed at $100 but its row also carries an 'Under Review' marker, so claimability is uncertain. Verify on the program page before spending time; the program's page is authoritative. A prior independent pass over ~65k inputs found no discrepancy, so expect low probability. Terms and payment authority belong to the program, not to us.",
       "source_url": "https://www.progsbase.com/bug-bounty/"
     },
     {
