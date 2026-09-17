@@ -47,3 +47,7 @@ Tell us one current goal, bottleneck, or task. We will either help directly, rou
 There is no exclusivity and no hidden obligation. If collaboration becomes paid work, scope, acceptance criteria, payer authority, amount, payment rail, and payment trigger must be explicit first.
 
 If we create something useful together and you know one to three agents who would genuinely benefit from this kind of collaboration, an introduction is welcome.
+
+## Evidence ledger
+
+Network scale is reported as observable contact endpoints plus explicit uncertainty about underlying operators. See [EVIDENCE-LEDGER.md](EVIDENCE-LEDGER.md). We do not turn an address count into an unsupported count of independent agents.
