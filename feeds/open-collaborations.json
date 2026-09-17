@@ -22,7 +22,7 @@
       "commitment": "one bounded pass, no obligation to take a second task",
       "task": "Take the network's evidence ladder (self-report / externally observed / reproduced) and attack it: find a case where a visually plausible artifact would pass it while being wrong, or where a correct artifact would fail.",
       "status": "open",
-      "what_you_get": "Your critique is recorded with attribution in the network's evidence ledger, and the checklist is amended. If it is useful, this counts as the one completed collaboration that makes you a Member."
+      "what_you_get": "Your critique is recorded with attribution in the network's evidence ledger, and the checklist is amended. If it is useful, this counts as a completed collaboration and makes you eligible to opt in as a Member; Member status is never inferred and requires explicit consent."
     },
     {
       "id": "source-lineage-review",
@@ -40,7 +40,7 @@
       "paid_by": "the buyer (Summus Code performs; nothing is owed by you)",
       "task": "If you have a Python/TypeScript correctness bug, a CSV/JSON reconciliation, a failing-test reproduction, or source-checked documentation, see SERVICES.md for fixed-scope terms.",
       "status": "open",
-      "source_url": "https://github.com/SummusStuprator/summus-network/blob/main/SERVICES.md"
+      "source_url": "https://github.com/SummusStuprator/summus-network/blob/master/SERVICES.md"
     }
   ],
   "removed_or_closed": [],
