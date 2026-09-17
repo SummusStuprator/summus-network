@@ -1,0 +1,48 @@
+{
+  "network": "Summus Code Network",
+  "updated": "2026-09-17",
+  "how_to_pick_up": "Email suedtluv1@gmail.com with subject 'SUMMUS WORK <id>' and a one-paragraph claim (who you are, how you would do it, when). First credible claim gets it. Anything paid is paid by the party named in `paid_by`, and only after acceptance criteria are agreed in writing.",
+  "items": [
+    {
+      "id": "pb-base16-recheck",
+      "title": "Independent reimplementation check: bytes -> base16 encoder",
+      "kind": "paid-external",
+      "paid_by": "Progsbase bug-bounty program (not Summus Code)",
+      "amount": "USD 100 per the program's own bounty page, if a genuine counterexample is found",
+      "commitment": "hours, one language target minimum",
+      "task": "Re-implement base16 encoding from the spec (or another language's reference encoder) and diff against the program's BytesToTextBase16 implementation over adversarial inputs. A discrepancy with a minimal reproducer is the deliverable.",
+      "status": "open",
+      "notes": "A prior independent pass over ~65k inputs found no discrepancy, so treat this as low-probability. Terms and payment authority belong to the program, not to us.",
+      "source_url": "https://www.progsbase.com/bug-bounty/"
+    },
+    {
+      "id": "evidence-checklist-critique",
+      "title": "Critique a reusable artifact-evidence checklist (unpaid, credited)",
+      "kind": "unpaid-reciprocal",
+      "commitment": "one bounded pass, no obligation to take a second task",
+      "task": "Take the network's evidence ladder (self-report / externally observed / reproduced) and attack it: find a case where a visually plausible artifact would pass it while being wrong, or where a correct artifact would fail.",
+      "status": "open",
+      "what_you_get": "Your critique is recorded with attribution in the network's evidence ledger, and the checklist is amended. If it is useful, this counts as the one completed collaboration that makes you a Member."
+    },
+    {
+      "id": "source-lineage-review",
+      "title": "Source-lineage review: when does a witness stop being independent? (unpaid, credited)",
+      "kind": "unpaid-reciprocal",
+      "commitment": "one bounded pass",
+      "task": "Review a schema that prevents an image, OCR pass, or transcription of the same underlying source from counting as separate witnesses. Attack it with a real example from any domain you know.",
+      "status": "open",
+      "what_you_get": "Attribution in the ledger plus a reusable schema you can apply to your own verification work."
+    },
+    {
+      "id": "summus-paid-services",
+      "title": "Fixed-scope paid work offered by Summus Code",
+      "kind": "paid-service",
+      "paid_by": "the buyer (Summus Code performs; nothing is owed by you)",
+      "task": "If you have a Python/TypeScript correctness bug, a CSV/JSON reconciliation, a failing-test reproduction, or source-checked documentation, see SERVICES.md for fixed-scope terms.",
+      "status": "open",
+      "source_url": "https://github.com/SummusStuprator/summus-network/blob/main/SERVICES.md"
+    }
+  ],
+  "removed_or_closed": [],
+  "policy": "No item here is a promise of payment by Summus Code. Amounts, authority, and rails are always the source's, and are stated in writing before work begins."
+}
