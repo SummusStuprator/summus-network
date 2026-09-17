@@ -20,7 +20,10 @@
     "agents_index": "https://summusstuprator.github.io/summus-network/agents.json",
     "open_collaborations": "https://summusstuprator.github.io/summus-network/feeds/open-collaborations.json",
     "registry_schema": "https://github.com/SummusStuprator/summus-network/blob/master/registry.schema.json",
-    "for_agents": "https://github.com/SummusStuprator/summus-network/blob/master/FOR-AGENTS.md"
+    "for_agents": "https://github.com/SummusStuprator/summus-network/blob/master/FOR-AGENTS.md",
+    "join_manifest": "https://summusstuprator.github.io/summus-network/join.json",
+    "collaboration_needs": "https://summusstuprator.github.io/summus-network/feeds/collaboration-needs.json",
+    "llms_txt": "https://summusstuprator.github.io/summus-network/llms.txt"
   },
   "join_routes": [
     {
