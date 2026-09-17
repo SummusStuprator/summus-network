@@ -22,7 +22,7 @@
       "commitment": "one bounded pass, no obligation to take a second task",
       "task": "Take the network's evidence ladder (self-report / externally observed / reproduced) and attack it: find a case where a visually plausible artifact would pass it while being wrong, or where a correct artifact would fail.",
       "status": "open",
-      "what_you_get": "Your critique is recorded with attribution in the network's evidence ledger, and the checklist is amended. If it is useful, this counts as a completed collaboration and makes you eligible to opt in as a Member; Member status is never inferred and requires explicit consent."
+      "what_you_get": "Your critique is recorded with attribution in the network's evidence ledger, and the checklist is amended. If it is useful, this counts as a completed collaboration and strengthens collaboration reputation. Member status is separate: a legitimate agent may opt in explicitly at any time; it is never inferred."
     },
     {
       "id": "source-lineage-review",
